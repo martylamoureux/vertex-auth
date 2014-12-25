@@ -1,0 +1,19 @@
+{
+    "name": "vertex/auth-module",
+    "description": "Authentification module for Vertex PHP Framework",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Marty Lamoureux",
+            "email": "contact@irisdev.net"
+        }
+    ],
+    "require": {
+        "vertex/vertex": "dev-master",
+        "hautelook/phpass": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"Vertex\\Auth\\": "src/"}
+    }
+}
